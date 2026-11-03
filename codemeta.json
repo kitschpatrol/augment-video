@@ -1,0 +1,41 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "Augment Video",
+  "identifier": "augment-video",
+  "description": "A two-channel video player with serial controls implementing Greg's ITP Project in openFrameworks.",
+  "version": "1.0",
+  "author": [
+    {
+      "@type": "Person",
+      "email": "eric@ericmika.com",
+      "name": "Eric Mika",
+      "url": "https://ericmika.com"
+    },
+    {
+      "@type": "Person",
+      "email": "greg.borenstein@gmail.com",
+      "name": "Greg Borenstein",
+      "url": "https://gregborenstein.com/"
+    }
+  ],
+  "codeRepository": "https://github.com/kitschpatrol/augment-video",
+  "issueTracker": "https://github.com/kitschpatrol/augment-video/issues",
+  "url": "https://github.com/kitschpatrol/augment-video",
+  "dateCreated": "2010-12-18",
+  "keywords": ["openframeworks", "video", "projection", "serial"],
+  "operatingSystem": ["macOS"],
+  "programmingLanguage": ["C++"],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "openFrameworks",
+      "url": "https://openframeworks.cc"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Xcode",
+      "url": "https://developer.apple.com/xcode/"
+    }
+  ]
+}
